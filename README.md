@@ -44,3 +44,56 @@ The trained pipeline processes the input data.
 The Machine Learning model analyzes the transaction.
 The system predicts whether the transaction is fraudulent or legitimate.
 The application displays the prediction and estimated fraud probability.
+
+File Description
+fapp.py – Main Streamlit application
+fraud_detection_pipeline.pkl – Trained Machine Learning pipeline
+requirements.txt – Required Python libraries
+README.md – Project documentation
+
+First, install the required libraries:
+
+pip install -r requirements.txt
+
+Then start the Streamlit application:
+
+streamlit run fapp.py
+
+The application will open in your web browser.
+
+🎯 Project Objective
+
+The main goal of this project is to demonstrate how Machine Learning can be used to detect financial fraud and identify potentially suspicious transactions.
+
+
+🔮 Future Improvements
+Improve model accuracy
+Use larger datasets
+Add more transaction features
+Improve the user interface
+Add an analytics dashboard
+Deploy the application online
+
+
+
+⚠️ Disclaimer
+
+This project is created for educational purposes and is not intended to be used as a production financial fraud detection system.
+
+👨‍💻 Author
+
+Pawan Rana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
